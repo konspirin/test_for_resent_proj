@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+
+*{
+    font-family: "Poller One", serif;
+}
+body{
+    background: url("/images/sky.jpg"), black;
+    color: whitesmoke;
+}
+.right{
+    width: 50vw;
+    float: right;
+    border: solid whitesmoke 1px;
+    text-align: center;
+}
+.right div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.right img{
+    width: calc(100% / 3);
+}
+.left{
+    width: 25vw;
+    float: left;
+}
+.left img{
+    width: 100%;
+}
+footer{
+    clear: both;
+}
